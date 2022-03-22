@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-listenbrainz-master.flake = false;
+  inputs.src-listenbrainz-master.ref   = "refs/heads/master";
   inputs.src-listenbrainz-master.owner = "tandy1000";
-  inputs.src-listenbrainz-master.ref   = "master";
   inputs.src-listenbrainz-master.repo  = "listenbrainz-nim";
   inputs.src-listenbrainz-master.type  = "gitlab";
   
