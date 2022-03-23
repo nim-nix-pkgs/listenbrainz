@@ -1,0 +1,179 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "jsony": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-jsony-1_1_3": "src-jsony-1_1_3"
+      },
+      "locked": {
+        "dir": "1_1_3",
+        "lastModified": 1647934242,
+        "narHash": "sha256-2D24baxzHRgGRm+8uQDZ3ulheQhvSHBKoP7LucC274w=",
+        "owner": "nim-nix-pkgs",
+        "repo": "jsony",
+        "rev": "b77372e1311a3da085044ced2bcbdf00f65178bd",
+        "type": "github"
+      },
+      "original": {
+        "dir": "1_1_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "jsony",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
+        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nodejs": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "nodejs-main": "nodejs-main"
+      },
+      "locked": {
+        "lastModified": 1647934376,
+        "narHash": "sha256-lycqYxVvbF0S3S5yGA9BynNGnnicFHF6WZpZ+BlqH58=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nodejs",
+        "rev": "8d6a7e4cf395dfd3ba38de412410d624747a7b45",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nodejs",
+        "type": "github"
+      }
+    },
+    "nodejs-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "nodejs",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nodejs",
+          "nixpkgs"
+        ],
+        "src-nodejs-main": "src-nodejs-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1647934376,
+        "narHash": "sha256-lycqYxVvbF0S3S5yGA9BynNGnnicFHF6WZpZ+BlqH58=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nodejs",
+        "rev": "8d6a7e4cf395dfd3ba38de412410d624747a7b45",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nodejs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "jsony": "jsony",
+        "nixpkgs": "nixpkgs",
+        "nodejs": "nodejs",
+        "src-listenbrainz-master": "src-listenbrainz-master"
+      }
+    },
+    "src-jsony-1_1_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1641248657,
+        "narHash": "sha256-jtUCoqwCmE536Kpv/vZxGgqiHyReZf1WOiBdUzmMhM4=",
+        "owner": "treeform",
+        "repo": "jsony",
+        "rev": "2a2cc4331720b7695c8b66529dbfea6952727e7b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "treeform",
+        "ref": "refs/tags/1.1.3",
+        "repo": "jsony",
+        "type": "github"
+      }
+    },
+    "src-listenbrainz-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647714691,
+        "narHash": "sha256-aDDXU9vHq5uLa+j0eGddLWXaaS++qEa3mfawyKzavcs=",
+        "owner": "tandy1000",
+        "repo": "listenbrainz-nim",
+        "rev": "c0376c0897d02e3824fc32fbf83657c0a741406e",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "tandy1000",
+        "ref": "refs/heads/master",
+        "repo": "listenbrainz-nim",
+        "type": "gitlab"
+      }
+    },
+    "src-nodejs-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647787598,
+        "narHash": "sha256-bq5CfKVYRy+jPhx5Jc+F8lA92ks6tOK/tCsRoBFA6+8=",
+        "owner": "juancarlospaco",
+        "repo": "nodestdlib",
+        "rev": "b082b7d6839b8d8d10268a745af50d65da126a74",
+        "type": "github"
+      },
+      "original": {
+        "owner": "juancarlospaco",
+        "ref": "refs/heads/main",
+        "repo": "nodestdlib",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
