@@ -70,11 +70,11 @@
         "nodejs-main": "nodejs-main"
       },
       "locked": {
-        "lastModified": 1648107920,
-        "narHash": "sha256-mWQ0LjnnbqS9bGiO1Z1oihVNASn0m/vZ/C2q6ofvgDU=",
+        "lastModified": 1648152357,
+        "narHash": "sha256-z9L995ENZ8RPdck4hyRS12psTotBEt56AdSTIgXY0ZI=",
         "owner": "nim-nix-pkgs",
         "repo": "nodejs",
-        "rev": "367fb9e2b37437109b8fe8d1f448c49fe2007c51",
+        "rev": "68af57a4776dcdd3856264bc8739b95efbc0374f",
         "type": "github"
       },
       "original": {
@@ -98,11 +98,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1648107920,
-        "narHash": "sha256-mWQ0LjnnbqS9bGiO1Z1oihVNASn0m/vZ/C2q6ofvgDU=",
+        "lastModified": 1648152357,
+        "narHash": "sha256-z9L995ENZ8RPdck4hyRS12psTotBEt56AdSTIgXY0ZI=",
         "owner": "nim-nix-pkgs",
         "repo": "nodejs",
-        "rev": "367fb9e2b37437109b8fe8d1f448c49fe2007c51",
+        "rev": "68af57a4776dcdd3856264bc8739b95efbc0374f",
         "type": "github"
       },
       "original": {
@@ -159,11 +159,11 @@
     "src-nodejs-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1647951480,
-        "narHash": "sha256-eTV7gpn4lM180efuL8xLBEn2926u6vPaQvzHyow3pcM=",
+        "lastModified": 1648131295,
+        "narHash": "sha256-IOK80ckxiYgQ3FNfAxGviBUHqweo7guWvTfRGIXDuno=",
         "owner": "juancarlospaco",
         "repo": "nodestdlib",
-        "rev": "287435e193b430f0e5456c7a27b27c5ec0b8c0c4",
+        "rev": "a6dfac482a4627346f92f24462132311c48942e9",
         "type": "github"
       },
       "original": {
