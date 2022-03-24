@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "1_1_3",
-        "lastModified": 1648107666,
-        "narHash": "sha256-/vSosZhCc7OS9khUOKThpPVxSjYzedc6ZaKl+g1SWVg=",
+        "lastModified": 1648163206,
+        "narHash": "sha256-8yIxIGTykTfWcvqyEqW31sRbUVUYBVOcOJusudYXTYo=",
         "owner": "nim-nix-pkgs",
         "repo": "jsony",
-        "rev": "5c7bc6535f14600c114c4f932e52373c2365ba38",
+        "rev": "ab8b54887b7f579253f5ad1bf75c88859ef468a5",
         "type": "github"
       },
       "original": {
@@ -67,42 +67,15 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "nodejs-main": "nodejs-main"
-      },
-      "locked": {
-        "lastModified": 1648152357,
-        "narHash": "sha256-z9L995ENZ8RPdck4hyRS12psTotBEt56AdSTIgXY0ZI=",
-        "owner": "nim-nix-pkgs",
-        "repo": "nodejs",
-        "rev": "68af57a4776dcdd3856264bc8739b95efbc0374f",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "nodejs",
-        "type": "github"
-      }
-    },
-    "nodejs-main": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "nodejs",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nodejs",
-          "nixpkgs"
-        ],
         "src-nodejs-main": "src-nodejs-main"
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1648152357,
-        "narHash": "sha256-z9L995ENZ8RPdck4hyRS12psTotBEt56AdSTIgXY0ZI=",
+        "lastModified": 1648163407,
+        "narHash": "sha256-W9R2CPmim74DeiAeu77x5aZggeFBSJ4OoJ+7ucdgJ+o=",
         "owner": "nim-nix-pkgs",
         "repo": "nodejs",
-        "rev": "68af57a4776dcdd3856264bc8739b95efbc0374f",
+        "rev": "5bbaebb60f17397dfe70bfbd50cda4e7db634399",
         "type": "github"
       },
       "original": {
