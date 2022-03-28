@@ -11,6 +11,7 @@
   inputs.src-listenbrainz-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-listenbrainz-0_1_0.owner = "tandy1000";
   inputs.src-listenbrainz-0_1_0.repo  = "listenbrainz-nim";
+  inputs.src-listenbrainz-0_1_0.dir   = "";
   inputs.src-listenbrainz-0_1_0.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

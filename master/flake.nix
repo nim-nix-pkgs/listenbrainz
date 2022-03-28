@@ -11,6 +11,7 @@
   inputs.src-listenbrainz-master.ref   = "refs/heads/master";
   inputs.src-listenbrainz-master.owner = "tandy1000";
   inputs.src-listenbrainz-master.repo  = "listenbrainz-nim";
+  inputs.src-listenbrainz-master.dir   = "";
   inputs.src-listenbrainz-master.type  = "gitlab";
   
   inputs."jsony".owner = "nim-nix-pkgs";
