@@ -29,21 +29,21 @@
   inputs."nodejs".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nodejs".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-alaviss-union".owner = "nim-nix-pkgs";
-  inputs."github-alaviss-union".ref   = "master";
-  inputs."github-alaviss-union".repo  = "github-alaviss-union";
-  inputs."github-alaviss-union".dir   = "0_1_1";
-  inputs."github-alaviss-union".type  = "github";
-  inputs."github-alaviss-union".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-alaviss-union".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/alaviss/union".owner = "nim-nix-pkgs";
+  inputs."github.com/alaviss/union".ref   = "master";
+  inputs."github.com/alaviss/union".repo  = "github.com/alaviss/union";
+  inputs."github.com/alaviss/union".dir   = "";
+  inputs."github.com/alaviss/union".type  = "github";
+  inputs."github.com/alaviss/union".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/alaviss/union".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."github-tandy-1000-uniony".owner = "nim-nix-pkgs";
-  inputs."github-tandy-1000-uniony".ref   = "master";
-  inputs."github-tandy-1000-uniony".repo  = "github-tandy-1000-uniony";
-  inputs."github-tandy-1000-uniony".dir   = "master";
-  inputs."github-tandy-1000-uniony".type  = "github";
-  inputs."github-tandy-1000-uniony".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github-tandy-1000-uniony".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github.com/tandy-1000/uniony".owner = "nim-nix-pkgs";
+  inputs."github.com/tandy-1000/uniony".ref   = "master";
+  inputs."github.com/tandy-1000/uniony".repo  = "github.com/tandy-1000/uniony";
+  inputs."github.com/tandy-1000/uniony".dir   = "";
+  inputs."github.com/tandy-1000/uniony".type  = "github";
+  inputs."github.com/tandy-1000/uniony".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/tandy-1000/uniony".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
